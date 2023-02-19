@@ -104,7 +104,7 @@ All of the methods in [`DialogueViewBase`](../../../api/csharp/yarn.unity.dialog
 ## Responding to Dialogue Advancement Signals
 
 
-During gameplay, your user may wish signal that they want to advance the dialogue: that is, they want to proceed to the next line, or they want the current line to be presented more quickly.
+During gameplay, your user may wish to signal that they want to advance the dialogue: that is, they want to proceed to the next line, or they want the current line to be presented more quickly.
 
 To handle this case, subclasses of DialogueViewBase may implement the method [`UserRequestedViewAdvancement`](../../../api/csharp/yarn.unity.lineview.userrequestedviewadvancement.md), which can be called by other parts of the game.
 
